@@ -1,0 +1,271 @@
+
+body  
+{
+	background: #C0DEED url('bg_clouds.png') repeat-x; 
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica, Sans-Serif;
+}
+
+.dbMode
+{
+	background: #ECC4C0 url('bg_clouds_db.png') repeat-x;
+}
+
+a
+{
+	color: #4E81BA;
+}
+
+strong>em
+{
+	font-size: x-large;
+}
+
+#titleTwitter
+{
+	float: left;
+	margin-bottom: 10px
+}
+
+
+
+
+#DisconnectLink
+{
+	text-align: right;
+	float: right;
+}
+
+#DisconnectLink>a
+{
+	margin: 40px 0px 0px 0px;
+	display: block;
+	height: 22px;
+	width: 150px;
+	color: transparent;
+	border: none;
+	text-align:right;
+	cursor: pointer;
+	background: transparent url('signin_twitter.png') no-repeat top;
+}
+
+#ConnectLink
+{
+	text-align: right;
+	float: right;
+}
+
+#ConnectLink>a
+{
+	margin: 40px 0px 0px 0px;
+	display: block;
+	height: 22px;
+	width: 150px;
+	color: transparent;
+	border: none;
+	text-align:right;
+	cursor: pointer;
+	background: transparent url('signin_twitter.png') no-repeat top;
+}
+
+#ConnectLink>a:hover
+{
+	background-position: left -24px;
+}
+
+#ConnectLink>a:active
+{
+	background-position: left -48px;
+}
+
+h2, h2>a
+{
+	text-align: left;
+	font-size: 64px;
+	margin: 0;
+	margin-top: 10px;
+	color: White;
+	text-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+.contentDiv
+{
+	clear: both;
+	background-color: White;
+	padding: 10px;
+	border-radius: 6px;
+	text-align: left;
+	margin: 20px 0px 50px 0px;
+	box-shadow: 0px 3px 20px rgba(0,0,0,0.2);
+}
+
+.userImg
+{
+	float: left;
+	margin-right: 8px;
+	height: 48px;
+	width: 48px;
+	border-radius: 3px;
+}
+
+.tweetP
+{
+	clear: left;
+	margin: 0;
+	height: 48px;
+	margin-bottom: 10px;
+}
+
+
+.inTweetImg
+{
+	float: left;
+	margin-right: 5px;
+	height: 48px;
+    width: 48px;
+    border-radius: 3px;
+}
+
+.loginOrSignup
+{
+	margin-top: 30px;
+	background-color: White;
+	padding: 10px;
+	border-radius: 6px;
+	box-shadow: 0px 3px 20px rgba(0,0,0,0.2);
+	float: right;
+	margin-bottom: 0px;
+}
+
+#saveToDb
+{
+	display: block;
+	background-color: White;
+	padding: 10px;
+	border-radius: 6px;
+	box-shadow: 0px 3px 20px rgba(0,0,0,0.2);
+	clear: both;
+	cursor: pointer;
+}
+
+.connectToTwitter
+{
+	display: block;
+	height: 22px;
+	width: 150px;
+	color: transparent;
+	border: none;
+	text-align:center;
+	cursor: pointer;
+	margin: auto;
+	background: transparent url('signin_twitter.png') no-repeat top;
+}
+
+.connectToTwitter:hover
+{
+	background-position: left -24px;
+}
+
+.connectToTwitter:active
+{
+	background-position: left -48px;
+}
+
+#tweet
+{
+	border-radius: 6px;
+	border-color: #BBB;
+	margin: 0;
+	width: 705px;
+	max-width: 705px;
+	height: 50px;
+	font-size: 22px;
+	-webkit-background-clip: padding-box;
+}
+
+#editFuckingTweet
+{
+	display: none;
+	color:Black;
+	position: fixed;
+	height: 60px;
+	width: 300px;
+	padding:20px;
+	top: 50%;
+	left: 50%;
+	margin-left: -155px;
+	margin-top: -30px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0px 2px 15px black;
+}
+
+#editFuckingTweet input[type=text]
+{
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+#editFuckingTweet>.headerEdit
+{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+
+.merciDavid
+{
+	display: block;
+	background-color: White;
+	padding: 10px;
+	border-radius: 6px;
+	box-shadow: 0px 3px 20px rgba(0,0,0,0.2);
+	clear: both;
+	}
+
+.editTweet
+{
+	float: right;
+	margin-left: 10px;
+}
+
+.submitTweet
+{
+	height: 57px;
+	margin:0;
+	float: right;
+}
+
+
+/* Styles pour les programmes d'assistance de validation
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}

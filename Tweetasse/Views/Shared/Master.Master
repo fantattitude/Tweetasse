@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+	<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+	<script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+</head>
+<body <% if(Session["DatabaseMode"] != null){%>class="dbMode"<%} %>>
+    <div>
+		<h2 id="titleTwitter"><a href="/">Twitter</a></h2>
+		<% if (Session["LoggedASP"] == null)
+		{
+		
+		%>
+		<div class="loginOrSignup">
+			<% Html.BeginForm("SignupOrLogin", "Account"); %>
+				<input type="text" name="username" placeholder="Username" />
+				<input type="password" name="password" placeholder="Password" />
+				<input type="submit" value="Sign Up or Login!" />
+			<% Html.EndForm(); %>
+		</div>
+		
+	<%}
+	else
+	{
+		 string datamode ="";
+		 if (Session["DatabaseMode"] == null)
+			 datamode = "Database Mode";
+		 else
+			 datamode = "Online Mode";
+	%>
+		<div class="loginOrSignup">
+			Connected as <strong><%= ((Tweetasse.Models.User)Session["LoggedUser"]).Username%></strong>. <%: Html.ActionLink("Manage", "Index", "Account")%> - <%: Html.ActionLink(datamode, "SwitchMode", "Account")%> - <%: Html.ActionLink("Disconnect", "Deconnexion","Account")%>
+		</div>
+		<%}%>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
+                          

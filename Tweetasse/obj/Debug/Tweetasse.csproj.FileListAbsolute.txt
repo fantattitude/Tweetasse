@@ -1,0 +1,17 @@
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\obj\Debug\ResolveAssemblyReference.cache
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\bin\Tweetasse.dll
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\bin\Tweetasse.pdb
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\obj\Debug\Tweetasse.dll
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\obj\Debug\Tweetasse.pdb
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\bin\Twitterizer2.dll
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\bin\Newtonsoft.Json.dll
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\bin\Newtonsoft.Json.pdb
+c:\users\anne-sophie\documents\visual studio 2010\Projects\Tweetasse\Tweetasse\bin\Newtonsoft.Json.xml
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\bin\Tweetasse.dll
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\bin\Tweetasse.pdb
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\bin\Newtonsoft.Json.dll
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\bin\Newtonsoft.Json.pdb
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\bin\Newtonsoft.Json.xml
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\obj\Debug\Tweetasse.dll
+C:\Users\fantattitude\Desktop\Transfert iDisk\Tweetasse\Tweetasse\obj\Debug\Tweetasse.pdb

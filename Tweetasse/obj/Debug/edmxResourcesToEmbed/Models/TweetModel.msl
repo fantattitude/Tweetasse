@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TweetasseModelStoreContainer" CdmEntityContainer="TweetasseEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="TweetasseModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="TwitterUsername" ColumnName="TwitterUsername" />
+          <ScalarProperty Name="TwitterID" ColumnName="TwitterID" />
+          <ScalarProperty Name="TwitterTokenSecret" ColumnName="TwitterTokenSecret" />
+          <ScalarProperty Name="TwitterToken" ColumnName="TwitterToken" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tweets">
+      <EntityTypeMapping TypeName="TweetasseModel.Tweet">
+        <MappingFragment StoreEntitySet="Tweets">
+          <ScalarProperty Name="Datetime" ColumnName="Datetime" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="IDTwitter" ColumnName="IDTwitter" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
